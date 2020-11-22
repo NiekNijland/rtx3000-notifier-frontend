@@ -198,7 +198,7 @@
                 event.preventDefault();
                 let formData = new FormData(this);
                 $.ajax({
-                    url: "{{route('getupdates.post')}}",
+                    url: "https://geforce.nieknijland.com/getupdates",
                     type:"POST",
                     data:formData,
                     success:function(response){
