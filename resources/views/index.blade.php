@@ -48,7 +48,7 @@
                                             </div>
                                         </a>
                                         <div class="col-1"></div>
-                                        <a href="" target="_blank" class="card <?php if($azerty->GetCardStock("RTX3090")) { print('bg-success'); } else { print('bg-danger'); } ?> text-center col-3" style="display: block">
+                                        <a href="https://azerty.nl/category/componenten/videokaarten#!sorting=15&limit=30&view=grid&Videochip_videokaarten=NVIDIA_GeForce_RTX_3090" target="_blank" class="card <?php if($azerty->GetCardStock("RTX3090")) { print('bg-success'); } else { print('bg-danger'); } ?> text-center col-3" style="display: block">
                                             <div class="single-count-content">
                                                 <span class="count">{!! $azerty->GetCardStock("RTX3090") !!}</span>
                                                 <p class="text text-white">Azerty</p>
@@ -95,7 +95,7 @@
                                             </div>
                                         </a>
                                         <div class="col-1"></div>
-                                        <a href="" target="_blank" class="card <?php if($azerty->GetCardStock("RTX3080")) { print('bg-success'); } else { print('bg-danger'); } ?> text-center col-3" style="display: block">
+                                        <a href="https://azerty.nl/category/componenten/videokaarten#!sorting=15&limit=30&view=grid&Videochip_videokaarten=NVIDIA_GeForce_RTX_3080" target="_blank" class="card <?php if($azerty->GetCardStock("RTX3080")) { print('bg-success'); } else { print('bg-danger'); } ?> text-center col-3" style="display: block">
                                             <div class="single-count-content">
                                                 <span class="count">{!! $azerty->GetCardStock("RTX3080") !!}</span>
                                                 <p class="text text-white">Azerty</p>
