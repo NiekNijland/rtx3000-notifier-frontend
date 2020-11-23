@@ -20,7 +20,6 @@ class IndexController extends Controller
         $cards = ["RTX3090", "RTX3080", "RTX3070"];
 
         if (strlen($request['email']) > 5 && strlen($request['email']) < 256 && strpos($request['email'], "@") && in_array($request['cardtype'], $cards)) {
-            if($request['cardtype'])
             app('App\Http\Controllers\SubscriberController')->Create($request['email'], $request['cardtype']);
             return response()->json(null, 201);
         } else {

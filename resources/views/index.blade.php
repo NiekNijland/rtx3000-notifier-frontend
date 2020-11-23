@@ -303,7 +303,7 @@
                 event.preventDefault();
                 let formData = new FormData(this);
                 $.ajax({
-                    url: "http://localhost/rtx3000-notifier-frontend/public/getupdates",
+                    url: "https://geforce.nieknijland.com/getupdates",
                     type:"POST",
                     data:formData,
                     success:function(response){

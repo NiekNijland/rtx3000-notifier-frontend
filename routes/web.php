@@ -15,3 +15,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'App\Http\Controllers\IndexController@GetIndex')->name('index.get');
 Route::post('/getupdates', 'App\Http\Controllers\IndexController@PostGetUpdates')->name('getupdates.post');
+
+Route::get('/voorkeuren/{id}', 'App\Http\Controllers\PreferencesController@GetPreferences')->name('preferences.get');
+Route::post('/voorkeuren/opslaan', 'App\Http\Controllers\PreferencesController@TogglePreferences')->name('preferences.post');
