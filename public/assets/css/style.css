@@ -1427,4 +1427,8 @@ main .footer .credit {
 .githubfooter:hover {
     color: white;
 }
+
+.bg-dark {
+    background-color: #1a1b1c!important;
+}
 /*# sourceMappingURL=style.css.map */

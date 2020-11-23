@@ -38,9 +38,9 @@
                                     <h1 class="text-white wow fadeInUp" data-wow-delay=".2s">Nvidia GeForce <br> RTX 3090</h1>
                                 </div>
                             </div>
-                            <div class="col-xl-7 col-lg-7">
+                            <div class="col-xs-11 col-lg-7">
                                 <div class="wow fadeInRight" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInRight;">
-                                    <div class="countdown d-flex">
+                                    <div class="countdown d-flex mx-auto">
                                         <a href="https://www.megekko.nl/Computer/Componenten/Videokaarten/Nvidia-Videokaarten?f=f_429-169345_vrrd-3_s-populair_pp-50_p-1_d-list_cf-" target="_blank" class="card <?php if($megekko->GetCardStock("RTX3090")) { print('bg-success'); } else { print('bg-danger'); } ?> text-center col-3" style="display: block">
                                             <div class="card-body single-count-content">
                                                 <span class="count">{!! $megekko->GetCardStock("RTX3090") !!}</span>
@@ -54,10 +54,17 @@
                                                 <p class="text text-white">Azerty</p>
                                             </div>
                                         </a>
+                                        <div class="col-1"></div>
+                                        <a href="https://www.cdromland.nl/" target="_blank" class="card <?php if($cdromland->GetCardStock("RTX3090")) { print('bg-success'); } else { print('bg-danger'); } ?> text-center col-3" style="display: block">
+                                            <div class="card-body single-count-content">
+                                                <span class="count">{!! $cdromland->GetCardStock("RTX3090") !!}</span>
+                                                <p class="text text-white">CD-ROM-LAND</p>
+                                            </div>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="subscribe-area wow fadeIn col-md-12 col-lg-5" data-wow-duration="1s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeIn;">
+                            <div class="subscribe-area wow fadeIn col-xs-1 col-lg-5 mx-auto" data-wow-duration="1s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeIn;">
                                 <div class="col-xs-12">
                                     <div class="subscribe-content mt-10">
                                         <h2 class="subscribe-title"><span>Ontvang</span> Updates</h2>
@@ -73,6 +80,34 @@
                                         </form>
                                     </div>
                                 </div>
+                            </div>
+                            <div class="col-xs-12 col-lg-7">
+                                <div class="wow fadeInRight" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInRight;">
+                                    <div class="countdown d-flex">
+                                        <a href="https://informatique.nl/" target="_blank" class="card <?php if($informatique->GetCardStock("RTX3090")) { print('bg-success'); } else { print('bg-danger'); } ?> text-center col-3" style="display: block">
+                                            <div class="single-count-content">
+                                                <span class="count">{!! $informatique->GetCardStock("RTX3090") !!}</span>
+                                                <p class="text text-white">Informatique</p>
+                                            </div>
+                                        </a>
+                                        <div class="col-1"></div>
+                                        <a href="https://alternate.nl/" target="_blank" class="card bg-dark text-center col-3" style="display: block">
+                                            <div class="single-count-content">
+                                                <span class="count">N</span>
+                                                <p class="text text-white">Alternate</p>
+                                            </div>
+                                        </a>
+                                        <div class="col-1"></div>
+                                        <a href="https://amazon.nl/" target="_blank" class="card bg-dark text-center col-3" style="display: block">
+                                            <div class="single-count-content">
+                                                <span class="count">N</span>
+                                                <p class="text text-white">Amazon.nl</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5" data-wow-duration="1s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeIn;">
                             </div>
                         </div>
                     </div>
@@ -101,6 +136,13 @@
                                                 <p class="text text-white">Azerty</p>
                                             </div>
                                         </a>
+                                        <div class="col-1"></div>
+                                        <a href="https://https://www.cdromland.nl/" target="_blank" class="card <?php if($cdromland->GetCardStock("RTX3080")) { print('bg-success'); } else { print('bg-danger'); } ?> text-center col-3" style="display: block">
+                                            <div class="card-body single-count-content">
+                                                <span class="count">{!! $cdromland->GetCardStock("RTX3080") !!}</span>
+                                                <p class="text text-white">CD-ROM-LAND</p>
+                                            </div>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -120,6 +162,34 @@
                                         </form>
                                     </div>
                                 </div>
+                            </div>
+                            <div class="col-xs-12 col-lg-7">
+                                <div class="wow fadeInRight" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInRight;">
+                                    <div class="countdown d-flex">
+                                        <a href="https://informatique.nl/" target="_blank" class="card <?php if($informatique->GetCardStock("RTX3080")) { print('bg-success'); } else { print('bg-danger'); } ?> text-center col-3" style="display: block">
+                                            <div class="single-count-content">
+                                                <span class="count">{!! $informatique->GetCardStock("RTX3080") !!}</span>
+                                                <p class="text text-white">Informatique</p>
+                                            </div>
+                                        </a>
+                                        <div class="col-1"></div>
+                                        <a href="https://alternate.nl/" target="_blank" class="card bg-dark text-center col-3" style="display: block">
+                                            <div class="single-count-content">
+                                                <span class="count">N</span>
+                                                <p class="text text-white">Alternate</p>
+                                            </div>
+                                        </a>
+                                        <div class="col-1"></div>
+                                        <a href="https://amazon.nl/" target="_blank" class="card bg-dark text-center col-3" style="display: block">
+                                            <div class="single-count-content">
+                                                <span class="count">N</span>
+                                                <p class="text text-white">Amazon.nl</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5" data-wow-duration="1s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeIn;">
                             </div>
                         </div>
                     </div>
@@ -148,6 +218,13 @@
                                                 <p class="text text-white">Azerty</p>
                                             </div>
                                         </a>
+                                        <div class="col-1"></div>
+                                        <a href="https://https://www.cdromland.nl/" target="_blank" class="card <?php if($cdromland->GetCardStock("RTX3070")) { print('bg-success'); } else { print('bg-danger'); } ?> text-center col-3" style="display: block">
+                                            <div class="card-body single-count-content">
+                                                <span class="count">{!! $cdromland->GetCardStock("RTX3070") !!}</span>
+                                                <p class="text text-white">CD-ROM-LAND</p>
+                                            </div>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -167,6 +244,34 @@
                                         </form>
                                     </div>
                                 </div>
+                            </div>
+                            <div class="col-xs-12 col-lg-7">
+                                <div class="wow fadeInRight" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInRight;">
+                                    <div class="countdown d-flex">
+                                        <a href="https://informatique.nl/" target="_blank" class="card <?php if($informatique->GetCardStock("RTX3070")) { print('bg-success'); } else { print('bg-danger'); } ?> text-center col-3" style="display: block">
+                                            <div class="single-count-content">
+                                                <span class="count">{!! $informatique->GetCardStock("RTX3070") !!}</span>
+                                                <p class="text text-white">Informatique</p>
+                                            </div>
+                                        </a>
+                                        <div class="col-1"></div>
+                                        <a href="https://alternate.nl/" target="_blank" class="card bg-dark text-center col-3" style="display: block">
+                                            <div class="single-count-content">
+                                                <span class="count">N</span>
+                                                <p class="text text-white">Alternate</p>
+                                            </div>
+                                        </a>
+                                        <div class="col-1"></div>
+                                        <a href="https://amazon.nl/" target="_blank" class="card bg-dark text-center col-3" style="display: block">
+                                            <div class="single-count-content">
+                                                <span class="count">N</span>
+                                                <p class="text text-white">Amazon.nl</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5" data-wow-duration="1s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeIn;">
                             </div>
                         </div>
                     </div>
@@ -198,7 +303,7 @@
                 event.preventDefault();
                 let formData = new FormData(this);
                 $.ajax({
-                    url: "https://geforce.nieknijland.com/getupdates",
+                    url: "http://localhost/rtx3000-notifier-frontend/public/getupdates",
                     type:"POST",
                     data:formData,
                     success:function(response){

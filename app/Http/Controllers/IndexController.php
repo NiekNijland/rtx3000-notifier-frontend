@@ -9,8 +9,10 @@ class IndexController extends Controller
     public function GetIndex(){
         $azerty = app('App\Http\Controllers\AzertyController')->GetLatestStock();
         $megekko = app('App\Http\Controllers\MegekkoController')->GetLatestStock();
+        $cdromland = app('App\Http\Controllers\CdromlandController')->GetLatestStock();
+        $informatique = app('App\Http\Controllers\InformatiqueController')->GetLatestStock();
 
-        return view('index', ['azerty' => $azerty, 'megekko' => $megekko]);
+        return view('index', ['azerty' => $azerty, 'megekko' => $megekko, 'cdromland' => $cdromland, 'informatique' => $informatique]);
     }
 
     public function PostGetUpdates(Request $request)
