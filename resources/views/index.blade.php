@@ -91,6 +91,25 @@
                                             </div>
                                         </a>
                                         <div class="col-1"></div>
+										 <a href="https://coolblue.nl/" target="_blank" class="card <?php if($coolblue->GetCardStock("RTX3090")) { print('bg-success'); } else { print('bg-danger'); } ?> text-center col-3" style="display: block">
+                                            <div class="single-count-content">
+                                                <span class="count">{!! $coolblue->GetCardStock("RTX3090") !!}</span>
+                                                <p class="text text-white">Coolblue</p>
+                                            </div>
+                                        </a>
+										<div class="col-1"></div>
+										 <a href="https://cyberport.de/" target="_blank" class="card <?php if($cyberport->GetCardStock("RTX3090")) { print('bg-success'); } else { print('bg-danger'); } ?> text-center col-3" style="display: block">
+                                            <div class="single-count-content">
+                                                <span class="count">{!! $cyberport->GetCardStock("RTX3090") !!}</span>
+                                                <p class="text text-white">Cyberport</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div> <div class="col-xs-12 col-lg-7">
+                                <div class="wow fadeInRight" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInRight;">
+                                    <div class="countdown d-flex">
+                                        <div class="col-1"></div>
                                         <a href="https://alternate.nl/" target="_blank" class="card bg-dark text-center col-3" style="display: block">
                                             <div class="single-count-content">
                                                 <span class="count">N</span>
@@ -173,6 +192,25 @@
                                             </div>
                                         </a>
                                         <div class="col-1"></div>
+										 <a href="https://coolblue.nl/" target="_blank" class="card <?php if($coolblue->GetCardStock("RTX3080")) { print('bg-success'); } else { print('bg-danger'); } ?> text-center col-3" style="display: block">
+                                            <div class="single-count-content">
+                                                <span class="count">{!! $coolblue->GetCardStock("RTX3080") !!}</span>
+                                                <p class="text text-white">Coolblue</p>
+                                            </div>
+                                        </a>
+										<div class="col-1"></div>
+										 <a href="https://cyberport.de/" target="_blank" class="card <?php if($cyberport->GetCardStock("RTX3080")) { print('bg-success'); } else { print('bg-danger'); } ?> text-center col-3" style="display: block">
+                                            <div class="single-count-content">
+                                                <span class="count">{!! $cyberport->GetCardStock("RTX3080") !!}</span>
+                                                <p class="text text-white">Cyberport</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-lg-7">
+                                <div class="wow fadeInRight" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInRight;">
+                                    <div class="countdown d-flex">
                                         <a href="https://alternate.nl/" target="_blank" class="card bg-dark text-center col-3" style="display: block">
                                             <div class="single-count-content">
                                                 <span class="count">N</span>
@@ -255,6 +293,25 @@
                                             </div>
                                         </a>
                                         <div class="col-1"></div>
+										 <a href="https://coolblue.nl/" target="_blank" class="card <?php if($coolblue->GetCardStock("RTX3070")) { print('bg-success'); } else { print('bg-danger'); } ?> text-center col-3" style="display: block">
+                                            <div class="single-count-content">
+                                                <span class="count">{!! $coolblue->GetCardStock("RTX3070") !!}</span>
+                                                <p class="text text-white">Coolblue</p>
+                                            </div>
+                                        </a>
+										<div class="col-1"></div>
+										 <a href="https://cyberport.de/" target="_blank" class="card <?php if($cyberport->GetCardStock("RTX3070")) { print('bg-success'); } else { print('bg-danger'); } ?> text-center col-3" style="display: block">
+                                            <div class="single-count-content">
+                                                <span class="count">{!! $cyberport->GetCardStock("RTX3070") !!}</span>
+                                                <p class="text text-white">Cyberport</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-lg-7">
+                                <div class="wow fadeInRight" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInRight;">
+                                    <div class="countdown d-flex">
                                         <a href="https://alternate.nl/" target="_blank" class="card bg-dark text-center col-3" style="display: block">
                                             <div class="single-count-content">
                                                 <span class="count">N</span>
