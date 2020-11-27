@@ -23,7 +23,7 @@
                         </div>
                         <div class="col-md-8">
                             <div class="header-right text-right">
-                                <a href="https://github.com/NiekNijland" target="_blank">Say hello! My GitHub</a>
+                                <a href="https://github.com/NiekNijland" target="_blank">Handig? bouw mee op GitHub</a>
                             </div>
                         </div>
                     </div>
@@ -102,25 +102,6 @@
                                             <div class="single-count-content">
                                                 <span class="count">{!! $cyberport->GetCardStock("RTX3090") !!}</span>
                                                 <p class="text text-white">Cyberport</p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div> <div class="col-xs-12 col-lg-7">
-                                <div class="wow fadeInRight" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInRight;">
-                                    <div class="countdown d-flex">
-                                        <div class="col-1"></div>
-                                        <a href="https://alternate.nl/" target="_blank" class="card bg-dark text-center col-3" style="display: block">
-                                            <div class="single-count-content">
-                                                <span class="count">N</span>
-                                                <p class="text text-white">Alternate</p>
-                                            </div>
-                                        </a>
-                                        <div class="col-1"></div>
-                                        <a href="https://amazon.nl/" target="_blank" class="card bg-dark text-center col-3" style="display: block">
-                                            <div class="single-count-content">
-                                                <span class="count">N</span>
-                                                <p class="text text-white">Amazon.nl</p>
                                             </div>
                                         </a>
                                     </div>
@@ -208,25 +189,6 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-12 col-lg-7">
-                                <div class="wow fadeInRight" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInRight;">
-                                    <div class="countdown d-flex">
-                                        <a href="https://alternate.nl/" target="_blank" class="card bg-dark text-center col-3" style="display: block">
-                                            <div class="single-count-content">
-                                                <span class="count">N</span>
-                                                <p class="text text-white">Alternate</p>
-                                            </div>
-                                        </a>
-                                        <div class="col-1"></div>
-                                        <a href="https://amazon.nl/" target="_blank" class="card bg-dark text-center col-3" style="display: block">
-                                            <div class="single-count-content">
-                                                <span class="count">N</span>
-                                                <p class="text text-white">Amazon.nl</p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
                             <div class="col-lg-5" data-wow-duration="1s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeIn;">
                             </div>
                         </div>
@@ -304,25 +266,6 @@
                                             <div class="single-count-content">
                                                 <span class="count">{!! $cyberport->GetCardStock("RTX3070") !!}</span>
                                                 <p class="text text-white">Cyberport</p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xs-12 col-lg-7">
-                                <div class="wow fadeInRight" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInRight;">
-                                    <div class="countdown d-flex">
-                                        <a href="https://alternate.nl/" target="_blank" class="card bg-dark text-center col-3" style="display: block">
-                                            <div class="single-count-content">
-                                                <span class="count">N</span>
-                                                <p class="text text-white">Alternate</p>
-                                            </div>
-                                        </a>
-                                        <div class="col-1"></div>
-                                        <a href="https://amazon.nl/" target="_blank" class="card bg-dark text-center col-3" style="display: block">
-                                            <div class="single-count-content">
-                                                <span class="count">N</span>
-                                                <p class="text text-white">Amazon.nl</p>
                                             </div>
                                         </a>
                                     </div>

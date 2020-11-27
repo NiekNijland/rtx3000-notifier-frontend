@@ -7,12 +7,12 @@ use Illuminate\Http\Request;
 class IndexController extends Controller
 {
     public function GetIndex(){
-        $azerty = app('App\Http\Controllers\AzertyController')->GetLatestStock();
-        $megekko = app('App\Http\Controllers\MegekkoController')->GetLatestStock();
-        $cdromland = app('App\Http\Controllers\CdromlandController')->GetLatestStock();
-        $informatique = app('App\Http\Controllers\InformatiqueController')->GetLatestStock();
-        $coolblue = app('App\Http\Controllers\CoolblueController')->GetLatestStock();
-        $cyberport = app('App\Http\Controllers\CyberportController')->GetLatestStock();
+        $azerty = app('App\Http\Controllers\StockController')->Get("Azerty");
+        $megekko = app('App\Http\Controllers\StockController')->Get("Megekko");
+        $cdromland = app('App\Http\Controllers\StockController')->Get("Cdromland");
+        $informatique = app('App\Http\Controllers\StockController')->Get("Informatique");
+        $coolblue = app('App\Http\Controllers\StockController')->Get("Coolblue");
+        $cyberport = app('App\Http\Controllers\StockController')->Get("Cyberport");
 
         return view('index', ['azerty' => $azerty, 'megekko' => $megekko, 'cdromland' => $cdromland, 'informatique' => $informatique, 'coolblue' => $coolblue, 'cyberport' => $cyberport]);
     }
