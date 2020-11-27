@@ -109,6 +109,18 @@
                             </div>
                             <div class="col-lg-5" data-wow-duration="1s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeIn;">
                             </div>
+							 <div class="col-xs-12 col-lg-7">
+                                <div class="wow fadeInRight" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInRight;">
+                                    <div class="countdown d-flex">
+                                        <a href="https://maxict.nl/componenten/videokaarten/nvidia-rtx?filters[grafische-processor][]=GeForce RTX 3090" target="_blank" class="card <?php if($maxict->GetCardStock("RTX3090")) { print('bg-success'); } else { print('bg-danger'); } ?> text-center col-3" style="display: block">
+                                            <div class="single-count-content">
+                                                <span class="count">{!! $maxict->GetCardStock("RTX3090") !!}</span>
+                                                <p class="text text-white">MaxICT</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -191,6 +203,18 @@
                             </div>
                             <div class="col-lg-5" data-wow-duration="1s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeIn;">
                             </div>
+							 <div class="col-xs-12 col-lg-7">
+                                <div class="wow fadeInRight" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInRight;">
+                                    <div class="countdown d-flex">
+                                        <a href="https://maxict.nl/componenten/videokaarten/nvidia-rtx?filters[grafische-processor][]=GeForce RTX 3080" target="_blank" class="card <?php if($maxict->GetCardStock("RTX3080")) { print('bg-success'); } else { print('bg-danger'); } ?> text-center col-3" style="display: block">
+                                            <div class="single-count-content">
+                                                <span class="count">{!! $maxict->GetCardStock("RTX3080") !!}</span>
+                                                <p class="text text-white">MaxICT</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -272,6 +296,18 @@
                                 </div>
                             </div>
                             <div class="col-lg-5" data-wow-duration="1s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeIn;">
+                            </div>
+							 <div class="col-xs-12 col-lg-7">
+                                <div class="wow fadeInRight" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInRight;">
+                                    <div class="countdown d-flex">
+                                        <a href="https://maxict.nl/componenten/videokaarten/nvidia-rtx?filters[grafische-processor][]=GeForce RTX 3070" target="_blank" class="card <?php if($maxict->GetCardStock("RTX3070")) { print('bg-success'); } else { print('bg-danger'); } ?> text-center col-3" style="display: block">
+                                            <div class="single-count-content">
+                                                <span class="count">{!! $maxict->GetCardStock("RTX3070") !!}</span>
+                                                <p class="text text-white">MaxICT</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
