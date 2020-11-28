@@ -13,8 +13,9 @@ class IndexController extends Controller
         $informatique = app('App\Http\Controllers\StockController')->Get("Informatique");
         $coolblue = app('App\Http\Controllers\StockController')->Get("Coolblue");
         $cyberport = app('App\Http\Controllers\StockController')->Get("Cyberport");
+        $maxict = app('App\Http\Controllers\StockController')->Get("MaxICT");
 
-        return view('index', ['azerty' => $azerty, 'megekko' => $megekko, 'cdromland' => $cdromland, 'informatique' => $informatique, 'coolblue' => $coolblue, 'cyberport' => $cyberport]);
+        return view('index', ['azerty' => $azerty, 'megekko' => $megekko, 'cdromland' => $cdromland, 'informatique' => $informatique, 'coolblue' => $coolblue, 'cyberport' => $cyberport, 'maxict' => $maxict]);
     }
 
     public function PostGetUpdates(Request $request)
