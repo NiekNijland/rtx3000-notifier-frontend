@@ -84,21 +84,21 @@
                             <div class="col-xs-12 col-lg-7">
                                 <div class="wow fadeInRight" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInRight;">
                                     <div class="countdown d-flex">
-                                        <a href="https://informatique.nl/" target="_blank" class="card <?php if($informatique->GetCardStock("RTX3090")) { print('bg-success'); } else { print('bg-danger'); } ?> text-center col-3" style="display: block">
+                                        <a href="https://www.informatique.nl/?m=sts&g=166&p=&sort=&ss=2&pr_min=&pr_max=&at529=27549" target="_blank" class="card <?php if($informatique->GetCardStock("RTX3090")) { print('bg-success'); } else { print('bg-danger'); } ?> text-center col-3" style="display: block">
                                             <div class="single-count-content">
                                                 <span class="count">{!! $informatique->GetCardStock("RTX3090") !!}</span>
                                                 <p class="text text-white">Informatique</p>
                                             </div>
                                         </a>
                                         <div class="col-1"></div>
-										 <a href="https://coolblue.nl/" target="_blank" class="card <?php if($coolblue->GetCardStock("RTX3090")) { print('bg-success'); } else { print('bg-danger'); } ?> text-center col-3" style="display: block">
+										 <a href="https://www.coolblue.nl/videokaarten/nvidia-chipset/nvidia-geforce-rtx-3000-serie/nvidia-geforce-rtx-3090" target="_blank" class="card <?php if($coolblue->GetCardStock("RTX3090")) { print('bg-success'); } else { print('bg-danger'); } ?> text-center col-3" style="display: block">
                                             <div class="single-count-content">
                                                 <span class="count">{!! $coolblue->GetCardStock("RTX3090") !!}</span>
                                                 <p class="text text-white">Coolblue</p>
                                             </div>
                                         </a>
 										<div class="col-1"></div>
-										 <a href="https://cyberport.de/" target="_blank" class="card <?php if($cyberport->GetCardStock("RTX3090")) { print('bg-success'); } else { print('bg-danger'); } ?> text-center col-3" style="display: block">
+										 <a href="https://www.cyberport.de/pc-und-zubehoer/komponenten/grafikkarten/nvidia-fuer-gaming.html?productsPerPage=50&sort=popularity&2E_Grafikchip=GeForce%20RTX%203090&page=1&stockLevelStatus=IMMEDIATELY" target="_blank" class="card <?php if($cyberport->GetCardStock("RTX3090")) { print('bg-success'); } else { print('bg-danger'); } ?> text-center col-3" style="display: block">
                                             <div class="single-count-content">
                                                 <span class="count">{!! $cyberport->GetCardStock("RTX3090") !!}</span>
                                                 <p class="text text-white">Cyberport</p>
@@ -190,21 +190,21 @@
                             <div class="col-xs-12 col-lg-7">
                                 <div class="wow fadeInRight" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInRight;">
                                     <div class="countdown d-flex">
-                                        <a href="https://informatique.nl/" target="_blank" class="card <?php if($informatique->GetCardStock("RTX3080")) { print('bg-success'); } else { print('bg-danger'); } ?> text-center col-3" style="display: block">
+                                        <a href="https://www.informatique.nl/?m=sts&g=166&p=&sort=&ss=2&pr_min=&pr_max=" target="_blank" class="card <?php if($informatique->GetCardStock("RTX3080")) { print('bg-success'); } else { print('bg-danger'); } ?> text-center col-3" style="display: block">
                                             <div class="single-count-content">
                                                 <span class="count">{!! $informatique->GetCardStock("RTX3080") !!}</span>
                                                 <p class="text text-white">Informatique</p>
                                             </div>
                                         </a>
                                         <div class="col-1"></div>
-										 <a href="https://coolblue.nl/" target="_blank" class="card <?php if($coolblue->GetCardStock("RTX3080")) { print('bg-success'); } else { print('bg-danger'); } ?> text-center col-3" style="display: block">
+										 <a href="https://www.coolblue.nl/videokaarten/nvidia-chipset/nvidia-geforce-rtx-3000-serie/nvidia-geforce-rtx-3080" target="_blank" class="card <?php if($coolblue->GetCardStock("RTX3080")) { print('bg-success'); } else { print('bg-danger'); } ?> text-center col-3" style="display: block">
                                             <div class="single-count-content">
                                                 <span class="count">{!! $coolblue->GetCardStock("RTX3080") !!}</span>
                                                 <p class="text text-white">Coolblue</p>
                                             </div>
                                         </a>
 										<div class="col-1"></div>
-										 <a href="https://cyberport.de/" target="_blank" class="card <?php if($cyberport->GetCardStock("RTX3080")) { print('bg-success'); } else { print('bg-danger'); } ?> text-center col-3" style="display: block">
+										 <a href="https://www.cyberport.de/pc-und-zubehoer/komponenten/grafikkarten/nvidia-fuer-gaming.html?productsPerPage=50&sort=popularity&2E_Grafikchip=GeForce%20RTX%203080&page=1&stockLevelStatus=IMMEDIATELY" target="_blank" class="card <?php if($cyberport->GetCardStock("RTX3080")) { print('bg-success'); } else { print('bg-danger'); } ?> text-center col-3" style="display: block">
                                             <div class="single-count-content">
                                                 <span class="count">{!! $cyberport->GetCardStock("RTX3080") !!}</span>
                                                 <p class="text text-white">Cyberport</p>
@@ -296,21 +296,21 @@
                             <div class="col-xs-12 col-lg-7">
                                 <div class="wow fadeInRight" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInRight;">
                                     <div class="countdown d-flex">
-                                        <a href="https://informatique.nl/" target="_blank" class="card <?php if($informatique->GetCardStock("RTX3070")) { print('bg-success'); } else { print('bg-danger'); } ?> text-center col-3" style="display: block">
+                                        <a href="https://www.informatique.nl/zoeken/?q=3070&k=20201125&g=166" target="_blank" class="card <?php if($informatique->GetCardStock("RTX3070")) { print('bg-success'); } else { print('bg-danger'); } ?> text-center col-3" style="display: block">
                                             <div class="single-count-content">
                                                 <span class="count">{!! $informatique->GetCardStock("RTX3070") !!}</span>
                                                 <p class="text text-white">Informatique</p>
                                             </div>
                                         </a>
                                         <div class="col-1"></div>
-										 <a href="https://coolblue.nl/" target="_blank" class="card <?php if($coolblue->GetCardStock("RTX3070")) { print('bg-success'); } else { print('bg-danger'); } ?> text-center col-3" style="display: block">
+										 <a href="https://www.coolblue.nl/videokaarten/nvidia-chipset/nvidia-rtx-3070" target="_blank" class="card <?php if($coolblue->GetCardStock("RTX3070")) { print('bg-success'); } else { print('bg-danger'); } ?> text-center col-3" style="display: block">
                                             <div class="single-count-content">
                                                 <span class="count">{!! $coolblue->GetCardStock("RTX3070") !!}</span>
                                                 <p class="text text-white">Coolblue</p>
                                             </div>
                                         </a>
 										<div class="col-1"></div>
-										 <a href="https://cyberport.de/" target="_blank" class="card <?php if($cyberport->GetCardStock("RTX3070")) { print('bg-success'); } else { print('bg-danger'); } ?> text-center col-3" style="display: block">
+										 <a href="https://www.cyberport.de/pc-und-zubehoer/komponenten/grafikkarten/nvidia-fuer-gaming.html?productsPerPage=50&sort=popularity&2E_Grafikchip=GeForce%20RTX%203070&page=1&stockLevelStatus=IMMEDIATELY" target="_blank" class="card <?php if($cyberport->GetCardStock("RTX3070")) { print('bg-success'); } else { print('bg-danger'); } ?> text-center col-3" style="display: block">
                                             <div class="single-count-content">
                                                 <span class="count">{!! $cyberport->GetCardStock("RTX3070") !!}</span>
                                                 <p class="text text-white">Cyberport</p>
