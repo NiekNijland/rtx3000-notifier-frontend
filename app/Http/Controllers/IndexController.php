@@ -7,10 +7,11 @@ use Illuminate\Http\Request;
 class IndexController extends Controller
 {
     public function GetIndex(){
-
+        /*
         $maxict = app('App\Http\Controllers\StockController')->Get("MaxICT");
+        */
 
-        
+
         $webshops = [
                         'azerty' => app('App\Http\Controllers\StockController')->Get("Azerty"),
                         'megekko' => app('App\Http\Controllers\StockController')->Get("Megekko"),
