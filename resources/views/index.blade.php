@@ -126,7 +126,12 @@
                                             </div>
                                         </a>
                                         <div class="col-1"></div>
-                                        <div class="col-3">
+                                        <a href="https://www.pcking.de/eshop.php?action=like_search&shopfilter_category=&s_group_id=*&s_order_name=&onlygroups=0&s_available=&articlelist_type=search&s_volltext=3090&security_token=60%3A36524297ff68fb75d5b2a63f11b733fa%3A46634" target="_blank" class="card <?php if($pcking->GetCardStock("RTX3090")) { print('bg-success'); } else { print('bg-danger'); } ?> text-center col-3" style="display: block">
+                                            <div class="single-count-content">
+                                                <span class="count">{!! $pcking->GetCardStock("RTX3090") !!}</span>
+                                                <p class="text text-white">PCKing</p>
+                                            </div>
+                                        </a>
                                         </div>
                                     </div>
                                 </div>
@@ -232,7 +237,12 @@
                                             </div>
                                         </a>
                                         <div class="col-1"></div>
-                                        <div class="col-3">
+                                        <a href="https://www.pcking.de/eshop.php?action=like_search&shopfilter_category=&s_group_id=*&s_order_name=&onlygroups=0&s_available=&articlelist_type=search&s_volltext=3080&security_token=60%3A36524297ff68fb75d5b2a63f11b733fa%3A46634" target="_blank" class="card <?php if($pcking->GetCardStock("RTX3080")) { print('bg-success'); } else { print('bg-danger'); } ?> text-center col-3" style="display: block">
+                                            <div class="single-count-content">
+                                                <span class="count">{!! $pcking->GetCardStock("RTX3080") !!}</span>
+                                                <p class="text text-white">PCKing</p>
+                                            </div>
+                                        </a>
                                         </div>
                                     </div>
                                 </div>
@@ -337,8 +347,13 @@
                                                 <p class="text text-white">Centralpoint</p>
                                             </div>
                                         </a>
-                                        <div class="col-1"></div>
-                                        <div class="col-3">
+										<div class="col-1"></div>
+                                        <a href="https://www.pcking.de/eshop.php?action=like_search&shopfilter_category=&s_group_id=*&s_order_name=&onlygroups=0&s_available=&articlelist_type=search&s_volltext=3070&security_token=60%3A36524297ff68fb75d5b2a63f11b733fa%3A46634" target="_blank" class="card <?php if($pcking->GetCardStock("RTX3070")) { print('bg-success'); } else { print('bg-danger'); } ?> text-center col-3" style="display: block">
+                                            <div class="single-count-content">
+                                                <span class="count">{!! $pcking->GetCardStock("RTX3070") !!}</span>
+                                                <p class="text text-white">PCKing</p>
+                                            </div>
+                                        </a>
                                         </div>
                                     </div>
                                 </div>
