@@ -20,7 +20,8 @@ class IndexController extends Controller
                         'coolblue' => app('App\Http\Controllers\StockController')->Get("Coolblue"),
                         'cyberport' => app('App\Http\Controllers\StockController')->Get("Cyberport"),
                         'amazon' => app('App\Http\Controllers\StockController')->Get("Amazon"),
-                        'centralpoint' => app('App\Http\Controllers\StockController')->Get("Centralpoint")
+                        'centralpoint' => app('App\Http\Controllers\StockController')->Get("Centralpoint"),
+                        'pcking' => app('App\Http\Controllers\StockController')->Get("PCKing")
                     ];
         return view('index', $webshops);
     }

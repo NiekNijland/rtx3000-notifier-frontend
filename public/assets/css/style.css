@@ -1138,7 +1138,7 @@ main .main-wrapper.demo-06 .hero-area {
   padding: 10vh 0vh 10vh;
 }
 
-main .main-wrapper.demo-06 .hero-area h1 {
+.gpuname {
   font-size: 100px;
   font-weight: 700;
   color: #fff;
@@ -1200,7 +1200,7 @@ main .main-wrapper.demo-06 .hero-area .countdown .single-count-content::after {
   }
 }
 
-main .main-wrapper.demo-06 .hero-area .countdown .single-count-content .count {
+.countnumber {
   font-family: "Poppins", sans-serif;
   color: #fff;
   font-size: 60px;

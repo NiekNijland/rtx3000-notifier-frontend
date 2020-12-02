@@ -35,7 +35,7 @@
                         <div class="row">
                             <div class="col-xl-12">
                                 <div class="heading">
-                                    <h1 class="text-white wow fadeInUp" data-wow-delay=".2s">Nvidia GeForce <br> RTX 3090</h1>
+                                    <h1 class="text-white wow fadeInUp gpuname" data-wow-delay=".2s">Nvidia GeForce <br> RTX 3090</h1>
                                 </div>
                             </div>
                             <div class="col-xs-11 col-lg-7">
@@ -146,7 +146,7 @@
                         <div class="row">
                             <div class="col-xl-12">
                                 <div class="heading">
-                                    <h1 class="text-white wow fadeInUp" data-wow-delay=".2s">Nvidia GeForce <br> RTX 3080</h1>
+                                    <h1 class="text-white wow fadeInUp gpuname" data-wow-delay=".2s">Nvidia GeForce <br> RTX 3080</h1>
                                 </div>
                             </div>
                             <div class="col-xl-7 col-lg-7">
@@ -257,7 +257,7 @@
                         <div class="row">
                             <div class="col-xl-12">
                                 <div class="heading">
-                                    <h1 class="text-white wow fadeInUp" data-wow-delay=".2s">Nvidia GeForce <br> RTX 3070</h1>
+                                    <h1 class="text-white wow fadeInUp gpuname" data-wow-delay=".2s">Nvidia GeForce <br> RTX 3070</h1>
                                 </div>
                             </div>
                             <div class="col-xl-7 col-lg-7">
@@ -363,19 +363,18 @@
                         </div>
                     </div>
                 </div>
-				
                 <div class="hero-area">
                     <div class="container">
                         <div class="row">
                             <div class="col-xl-12">
                                 <div class="heading">
-                                    <h1 class="text-white wow fadeInUp" data-wow-delay=".2s">Nvidia GeForce <br> RTX 3060 ti</h1>
+                                    <h1 class="text-white wow fadeInUp gpuname" data-wow-delay=".2s">Nvidia GeForce <br> RTX 3060 ti</h1>
                                 </div>
                             </div>
                             <div class="col-xl-7 col-lg-7">
                                 <div class="wow fadeInRight" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInRight;">
                                     <div class="countdown d-flex">
-                                        <a href="https://www.megekko.nl/Computer/Componenten/Videokaarten/Nvidia-Videokaarten?f=f_429-169343_vrrd-3_s-populair_pp-50_p-1_d-list_cf-" target="_blank" class="card <?php if($megekko->GetCardStock("RTX3060")) { print('bg-success'); } else { print('bg-danger'); } ?> text-center col-3" style="display: block">
+                                        <a href="https://www.megekko.nl/Computer/Componenten/Videokaarten/Nvidia-Videokaarten?f=f_429-169343_vrrd-3_s-populair_pp-50_p-1_d-list_cf-" target="_blank" class="card <?php if($megekko->GetCardStock("RTX3060TI")) { print('bg-success'); } else { print('bg-danger'); } ?> text-center col-3" style="display: block">
                                             <div class="card-body single-count-content">
                                                 <span class="count">{!! $megekko->GetCardStock("RTX3060TI") !!}</span>
                                                 <p class="text text-white">Megekko</p>
@@ -528,3 +527,4 @@
         </script>
     </body>
 </html>
+
