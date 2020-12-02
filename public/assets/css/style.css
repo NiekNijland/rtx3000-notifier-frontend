@@ -1200,7 +1200,7 @@ main .main-wrapper.demo-06 .hero-area .countdown .single-count-content::after {
   }
 }
 
-.countnumber {
+main .main-wrapper.demo-06 .hero-area .countdown .single-count-content .count {
   font-family: "Poppins", sans-serif;
   color: #fff;
   font-size: 60px;

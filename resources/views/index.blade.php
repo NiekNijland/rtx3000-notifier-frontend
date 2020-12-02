@@ -132,7 +132,6 @@
                                                 <p class="text text-white">PCKing</p>
                                             </div>
                                         </a>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -243,7 +242,6 @@
                                                 <p class="text text-white">PCKing</p>
                                             </div>
                                         </a>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -354,7 +352,6 @@
                                                 <p class="text text-white">PCKing</p>
                                             </div>
                                         </a>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -368,7 +365,7 @@
                         <div class="row">
                             <div class="col-xl-12">
                                 <div class="heading">
-                                    <h1 class="text-white wow fadeInUp gpuname" data-wow-delay=".2s">Nvidia GeForce <br> RTX 3060 ti</h1>
+                                    <h1 class="text-white wow fadeInUp gpuname" data-wow-delay=".2s">Nvidia GeForce <br> RTX 3060 Ti</h1>
                                 </div>
                             </div>
                             <div class="col-xl-7 col-lg-7">
@@ -465,7 +462,6 @@
                                                 <p class="text text-white">PCKing</p>
                                             </div>
                                         </a>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
