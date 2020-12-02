@@ -7,15 +7,22 @@ use Illuminate\Http\Request;
 class IndexController extends Controller
 {
     public function GetIndex(){
-        $azerty = app('App\Http\Controllers\StockController')->Get("Azerty");
-        $megekko = app('App\Http\Controllers\StockController')->Get("Megekko");
-        $cdromland = app('App\Http\Controllers\StockController')->Get("Cdromland");
-        $informatique = app('App\Http\Controllers\StockController')->Get("Informatique");
-        $coolblue = app('App\Http\Controllers\StockController')->Get("Coolblue");
-        $cyberport = app('App\Http\Controllers\StockController')->Get("Cyberport");
+        /*
         $maxict = app('App\Http\Controllers\StockController')->Get("MaxICT");
+        */
 
-        return view('index', ['azerty' => $azerty, 'megekko' => $megekko, 'cdromland' => $cdromland, 'informatique' => $informatique, 'coolblue' => $coolblue, 'cyberport' => $cyberport, 'maxict' => $maxict]);
+
+        $webshops = [
+                        'azerty' => app('App\Http\Controllers\StockController')->Get("Azerty"),
+                        'megekko' => app('App\Http\Controllers\StockController')->Get("Megekko"),
+                        'cdromland' => app('App\Http\Controllers\StockController')->Get("Cdromland"),
+                        'informatique' => app('App\Http\Controllers\StockController')->Get("Informatique"),
+                        'coolblue' => app('App\Http\Controllers\StockController')->Get("Coolblue"),
+                        'cyberport' => app('App\Http\Controllers\StockController')->Get("Cyberport"),
+                        'amazon' => app('App\Http\Controllers\StockController')->Get("Amazon"),
+                        'centralpoint' => app('App\Http\Controllers\StockController')->Get("Centralpoint")
+                    ];
+        return view('index', $webshops);
     }
 
     public function PostGetUpdates(Request $request)

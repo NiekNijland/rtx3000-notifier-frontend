@@ -109,7 +109,30 @@
                             </div>
                             <div class="col-lg-5" data-wow-duration="1s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeIn;">
                             </div>
-							
+                            <div class="col-xs-12 col-lg-7">
+                                <div class="wow fadeInRight" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInRight;">
+                                    <div class="countdown d-flex">
+                                        <a href="https://informatique.nl/" target="_blank" class="card <?php if($amazon->GetCardStock("RTX3090")) { print('bg-success'); } else { print('bg-danger'); } ?> text-center col-3" style="display: block">
+                                            <div class="single-count-content">
+                                                <span class="count">{!! $amazon->GetCardStock("RTX3090") !!}</span>
+                                                <p class="text text-white">Amazon</p>
+                                            </div>
+                                        </a>
+                                        <div class="col-1"></div>
+                                        <a href="https://coolblue.nl/" target="_blank" class="card <?php if($centralpoint->GetCardStock("RTX3090")) { print('bg-success'); } else { print('bg-danger'); } ?> text-center col-3" style="display: block">
+                                            <div class="single-count-content">
+                                                <span class="count">{!! $centralpoint->GetCardStock("RTX3090") !!}</span>
+                                                <p class="text text-white">Centralpoint</p>
+                                            </div>
+                                        </a>
+                                        <div class="col-1"></div>
+                                        <div class="col-3">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5" data-wow-duration="1s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeIn;">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -192,7 +215,30 @@
                             </div>
                             <div class="col-lg-5" data-wow-duration="1s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeIn;">
                             </div>
-							
+                            <div class="col-xs-12 col-lg-7">
+                                <div class="wow fadeInRight" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInRight;">
+                                    <div class="countdown d-flex">
+                                        <a href="https://informatique.nl/" target="_blank" class="card <?php if($amazon->GetCardStock("RTX3080")) { print('bg-success'); } else { print('bg-danger'); } ?> text-center col-3" style="display: block">
+                                            <div class="single-count-content">
+                                                <span class="count">{!! $amazon->GetCardStock("RTX3080") !!}</span>
+                                                <p class="text text-white">Amazon</p>
+                                            </div>
+                                        </a>
+                                        <div class="col-1"></div>
+                                        <a href="https://coolblue.nl/" target="_blank" class="card <?php if($centralpoint->GetCardStock("RTX3080")) { print('bg-success'); } else { print('bg-danger'); } ?> text-center col-3" style="display: block">
+                                            <div class="single-count-content">
+                                                <span class="count">{!! $centralpoint->GetCardStock("RTX3080") !!}</span>
+                                                <p class="text text-white">Centralpoint</p>
+                                            </div>
+                                        </a>
+                                        <div class="col-1"></div>
+                                        <div class="col-3">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5" data-wow-duration="1s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeIn;">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -275,7 +321,30 @@
                             </div>
                             <div class="col-lg-5" data-wow-duration="1s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeIn;">
                             </div>
-							
+                            <div class="col-xs-12 col-lg-7">
+                                <div class="wow fadeInRight" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInRight;">
+                                    <div class="countdown d-flex">
+                                        <a href="https://informatique.nl/" target="_blank" class="card <?php if($amazon->GetCardStock("RTX3070")) { print('bg-success'); } else { print('bg-danger'); } ?> text-center col-3" style="display: block">
+                                            <div class="single-count-content">
+                                                <span class="count">{!! $amazon->GetCardStock("RTX3070") !!}</span>
+                                                <p class="text text-white">Amazon</p>
+                                            </div>
+                                        </a>
+                                        <div class="col-1"></div>
+                                        <a href="https://coolblue.nl/" target="_blank" class="card <?php if($centralpoint->GetCardStock("RTX3070")) { print('bg-success'); } else { print('bg-danger'); } ?> text-center col-3" style="display: block">
+                                            <div class="single-count-content">
+                                                <span class="count">{!! $centralpoint->GetCardStock("RTX3070") !!}</span>
+                                                <p class="text text-white">Centralpoint</p>
+                                            </div>
+                                        </a>
+                                        <div class="col-1"></div>
+                                        <div class="col-3">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5" data-wow-duration="1s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeIn;">
+                            </div>
                         </div>
                     </div>
                 </div>
